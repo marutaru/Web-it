@@ -1,9 +1,5 @@
 $ ->
+  socket = io.connect("http://localhost:3000")
 
-
-  socket = io.connect("http://localhost")
   socket.on("connect", ->
-
-
-
   )
